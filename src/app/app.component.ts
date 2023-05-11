@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'AngularNgIntro';
+
+  parentMessage: string = 'Message coming from Parent component - app.component.ts'
+
+
+
 }
