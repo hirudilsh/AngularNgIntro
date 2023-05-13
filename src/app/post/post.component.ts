@@ -8,8 +8,12 @@ import { Component, Input } from '@angular/core';
 export class PostComponent {
 
   text: string = 'List of Posts'
-  postParentMessage: string = 'Message coming from the Post parent - post.component.ts'
 
+  //child to parent
+  postParentMessage: string = 'Message coming from the Post parent - post.component.ts'
   @Input() fromParent = '';
+
+  //parent to child
+  childMessage: string = 'From child component - post.component.ts'
 
 }
